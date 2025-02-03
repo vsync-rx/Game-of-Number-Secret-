@@ -13,7 +13,6 @@ startMensage();
 
 function verificarChute(){    
     let kick = document.querySelector('input').value;
-
     if (kick == secretNumber){
         namedElements('h1', 'Você acertou!');
         namedElements('p',  attempts > 1 ?
